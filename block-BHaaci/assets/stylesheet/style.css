@@ -188,3 +188,81 @@ main {
   font-size: 18px;
   font-weight: 600;
 }
+
+/* form container */
+.form-container {
+  text-align: center;
+}
+
+.free-trial-container {
+  position: relative;
+}
+.free-trial {
+  background: #5d54a3;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.shadow {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  top: 60%;
+  z-index: -1;
+}
+.free-trial strong {
+  font-weight: 700;
+}
+
+form {
+  background: #fffefc;
+  border-radius: 8px;
+  padding: 32px;
+}
+form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 18px;
+  border: 0;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #403f44;
+}
+form input:focus {
+  outline: 1px solid #615c7c;
+  color: #403f44;
+}
+button {
+  width: 100%;
+  border: 0;
+  padding: 18px;
+  border-radius: 8px;
+  color: #fffefc;
+  background: #37cc8a;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 0px 4px 2px #30b177;
+  margin-bottom: 32px;
+}
+
+button:hover {
+  background: #40e79c;
+}
+
+.description {
+  font-size: 12px;
+  color: #cdcbd7;
+  font-weight: 700;
+}
+.description span {
+  color: #f08c90;
+}
