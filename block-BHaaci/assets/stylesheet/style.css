@@ -154,5 +154,37 @@ img {
 .container {
   max-width: 1200px;
   width: 100%;
-  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Hero */
+.hero-section {
+  color: #fffefc;
+}
+.hero-section h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+.hero-section p {
+  font-size: 18px;
+  font-weight: 600;
 }
