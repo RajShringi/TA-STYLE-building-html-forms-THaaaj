@@ -139,6 +139,12 @@ body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background: linear-gradient(
+      rgba(255, 29, 25, 0.537),
+      rgba(255, 29, 25, 0.537)
+    ),
+    url("../media/bg-intro-desktop.png");
+  height: 100vh;
 }
 img {
   max-width: 100%;
