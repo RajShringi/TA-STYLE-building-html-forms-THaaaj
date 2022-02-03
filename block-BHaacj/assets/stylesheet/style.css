@@ -512,6 +512,7 @@ h4 {
   height: 100%;
 }
 
+/* Map */
 .map {
   position: relative;
 }
@@ -539,4 +540,11 @@ h4 {
 }
 .map-form button {
   width: 100%;
+}
+
+/* Footer */
+.footer-container {
+  padding: 24px 0;
+  background: var(--primary-color);
+  color: #fff;
 }
