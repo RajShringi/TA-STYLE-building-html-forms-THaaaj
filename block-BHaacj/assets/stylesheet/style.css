@@ -149,6 +149,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: #e6e6e6;
+  color: var(--text-color);
 }
 
 img {
@@ -157,6 +158,9 @@ img {
 
 a {
   text-decoration: none;
+}
+p {
+  margin: 16px 0;
 }
 
 /* Custom Styles */
@@ -173,6 +177,7 @@ a {
   text-transform: uppercase;
   font-size: 16px;
   cursor: pointer;
+  display: inline-block;
 }
 .btn-primary:hover {
   background: #5eb1a6;
@@ -302,4 +307,19 @@ a {
 }
 .form button {
   width: 100%;
+}
+
+/* Tagline */
+.tagline {
+  text-align: center;
+  padding: 38px 200px;
+  background: #efefef;
+}
+h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.tagline strong {
+  font-weight: 700;
 }
