@@ -31,5 +31,89 @@
         </nav>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <section class="hero">
+          <header class="hero-header flex flex-col">
+            <h1 class="hero-heading">Let's Begin</h1>
+            <img
+              class="hero-header-img mt-12"
+              src="assets/media/dots-3.png"
+              alt="dots-3"
+            />
+            <p class="hero-text mt-12">We assist you to choose the best.</p>
+            <div class="down-arrow mt-12">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </header>
+          <form class="form flex">
+            <fieldset class="flex-48 flex flex-col items-start self-stretch">
+              <div>
+                <label for="destination">Choose Your Destination</label>
+                <input
+                  type="text"
+                  name="destination"
+                  id="destination"
+                  placeholder="Type your destination"
+                />
+              </div>
+              <div class="flex mt-32">
+                <!-- check in -->
+                <div class="flex-48">
+                  <label for="check-in">Check in Date</label>
+                  <input
+                    type="text"
+                    name="check-in"
+                    id="check-in"
+                    placeholder="Check In"
+                  />
+                </div>
+
+                <!-- check out -->
+                <div class="fle-48 ml-10">
+                  <label for="check-out">Check Out Date</label>
+                  <input
+                    type="text"
+                    name="check-out"
+                    id="check-out"
+                    placeholder="Check Out"
+                  />
+                </div>
+              </div>
+            </fieldset>
+            <fieldset class="flex-48 flex flex-col items-start self-stretch">
+              <div class="flex self-stretch">
+                <!-- Rooms -->
+                <div class="flex-30">
+                  <label for="rooms">How many rooms?</label>
+                  <select name="rooms" id="rooms">
+                    <option value="1 Room">1 Room</option>
+                    <option value="2 Room">2 Room</option>
+                    <option value="3 Room">3 Room</option>
+                  </select>
+                </div>
+                <!-- No. of Adults -->
+                <div class="flex-30">
+                  <label for="adult">Adult</label>
+                  <select name="adult" id="adult">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+                <!-- No. of children -->
+                <div class="flex-30">
+                  <label for="children">children</label>
+                  <select name="children" id="children">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                </div>
+              </div>
+              <button class="btn btn-primary mt-32">check availability</button>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </main>
   </body>
 </html>
