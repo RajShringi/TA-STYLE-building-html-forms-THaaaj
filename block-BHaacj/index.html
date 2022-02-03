@@ -345,9 +345,50 @@
               </div>
             </article>
           </div>
-          <div class="text-center mt-24">
+          <div class="text-center mt-24 mb-24">
             <button class="btn btn-primary">Show more places</button>
           </div>
+        </section>
+
+        <!-- map -->
+        <section class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101562.96822355466!2d-120.54143016693976!3d37.29886037188144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80913f84fd1bb699%3A0xed2faa20bc868218!2sMerced%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1643911304234!5m2!1sen!2sin"
+            width="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <form class="map-form">
+            <div class="flex">
+              <input
+                class="flex-48 form-control mb-24"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <input
+                class="flex-48 form-control mb-24"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <input
+              class="form-control mb-24"
+              type="text"
+              name="subject"
+              placeholder="Subject"
+            />
+            <textarea
+              class="form-control mb-24"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn-primary">send message now</button>
+          </form>
         </section>
       </div>
     </main>
