@@ -148,6 +148,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  background: #e6e6e6;
 }
 
 img {
@@ -156,4 +157,46 @@ img {
 
 a {
   text-decoration: none;
+}
+
+/* Custom Styles */
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-justify-around {
+  justify-content: space-around;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  padding: 32px 0;
+}
+.header h2 {
+  margin-left: 12px;
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 38px;
+}
+.navbar li {
+  margin-left: 64px;
+}
+.navbar a {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 14px;
+}
+.navbar a:hover,
+.navbar a:focus {
+  color: var(--primary-color);
 }
