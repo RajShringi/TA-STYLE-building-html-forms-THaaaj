@@ -162,7 +162,11 @@ a {
 p {
   margin: 16px 0;
 }
-
+h3 {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+}
 /* Custom Styles */
 .container {
   max-width: 1300px;
@@ -182,7 +186,10 @@ p {
 .btn-primary:hover {
   background: #5eb1a6;
 }
-
+.btn-secondary {
+  background: #fff;
+  color: var(--primary-color);
+}
 .mt-12 {
   margin-top: 12px;
 }
@@ -201,11 +208,17 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.flex-14 {
+  flex: 0 1 14%;
+}
 .flex-30 {
   flex: 0 1 30%;
 }
 .flex-48 {
   flex: 0 1 48%;
+}
+.flex-50 {
+  flex: 0 1 50%;
 }
 .flex-col {
   flex-direction: column;
@@ -213,13 +226,18 @@ p {
 .items-start {
   align-items: flex-start;
 }
+.items-end {
+  align-items: flex-end;
+}
 .self-stretch {
   align-self: stretch;
 }
 .flex-justify-around {
   justify-content: space-around;
 }
-
+.justify-end {
+  justify-content: flex-end;
+}
 /* Header */
 .header {
   background: #fff;
@@ -322,4 +340,83 @@ h2 {
 }
 .tagline strong {
   font-weight: 700;
+}
+
+/* Places */
+.places {
+  background: #fff;
+  color: #fff;
+  font-size: 0;
+}
+.place-container {
+  position: relative;
+}
+.article-blue {
+  background: var(--primary-color);
+  padding: 32px;
+  position: absolute;
+  width: 48%;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.place-img-container {
+  position: relative;
+}
+.angle-container {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+  transform: translateX(-6%);
+  transform: translateY(-50%);
+}
+.angle-container i {
+  margin-left: 8px;
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.angle-container i:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+/* Asia */
+.article-purple {
+  background: var(--secondary-color);
+  padding: 32px;
+  position: absolute;
+  width: 48%;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.asia-angle-container {
+  left: 4.9%;
+  top: 50%;
+  transform: translateX(-4.9%);
+  transform: translateY(-50%);
+}
+
+/* Continents */
+.continents {
+  background: var(--primary-color);
+  font-size: 16px;
+  padding: 0 24px;
+}
+.continents div {
+  padding: 32px;
+}
+.continents .asia {
+  background: var(--secondary-color);
+}
+.continents p {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
 }
