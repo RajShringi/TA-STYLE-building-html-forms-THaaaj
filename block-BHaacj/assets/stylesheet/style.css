@@ -433,6 +433,10 @@ h2 {
   transform: translateY(-50%);
 }
 
+.asia-btn {
+  color: var(--secondary-color);
+}
+
 /* Continents */
 .continents {
   background: var(--primary-color);
