@@ -130,6 +130,13 @@ table {
   border-spacing: 0;
 }
 
+/* Pages Colors */
+:root {
+  --primary-color: #69c6ba;
+  --secondary-color: #c66995;
+  --text-color: #212529;
+}
+
 /* General Styles */
 *,
 *::before,
